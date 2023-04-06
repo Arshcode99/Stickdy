@@ -1,0 +1,119 @@
+.navbar, .navbarmob{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #f1f1f1;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px;
+}
+.logofoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px;
+    width: min-content;
+    color: #000;
+}
+.logofoot:hover{
+    background: rgba(0,0,0,0.1);
+}
+.logofoot img{
+    width: 35px;
+    height: 35px;
+}
+.logo:hover{
+    background: rgba(225,225,225,0.1);
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+}
+.ico{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.ico:hover{
+    background: rgba(225,225,225,0.1);
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.navbarmob{
+    display: none;
+}
+  .Footerboot{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid silver;
+  }
+  .Footerboot a:hover{
+    text-decoration: underline;
+  }
+
+  .threecol{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 35px;
+  }
+  .col{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-justify: left;
+  }
+  .info, .infomid{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .info a{
+    color: navy;
+  }
+  .info a:hover{
+    text-decoration: underline;
+  }
+  .infomid a{
+    color: navy;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    width: min-content;
+    white-space: nowrap;
+  }
+  .infomid a:hover{
+    background: rgba(0,0,0,0.1);
+  }
+  @media only screen and (max-width: 768px) {
+    
+  }
+  
