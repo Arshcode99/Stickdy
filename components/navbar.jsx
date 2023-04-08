@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './nav.module.css';
 import Image from 'next/image';
 import Logo from '../public/stickdy.png';
-import { BsBell, BsSearch, BsPerson, BsCart, BsShop } from 'react-icons/bs';
+import { BsBell, BsPerson, BsCart, BsShop } from 'react-icons/bs';
 import Link from 'next/link';
 
 const Navbar = () => {

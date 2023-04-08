@@ -1,0 +1,78 @@
+.Notifications{
+    width: 100dvw;
+    height: 87dvh;
+    overflow-y: scroll;
+}
+.Notificationsbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70dvw;
+    padding: 20px;
+    border-radius: 4px;
+    border: 0.1px solid silver;
+    margin: 20px auto;
+}
+.Notificationsbox hr{
+    width: 30%;
+    height: 3px;
+    background: linear-gradient(90deg, navy, blueviolet);
+    border-radius: 5%;
+    border: none;
+    margin: 10px 0px;
+}
+.noti{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 89% 1fr;
+    gap: 10px;
+    align-items: center;
+    text-align: left;
+    border: 0.1px solid rgba(0,0,0,0.1);
+}
+.ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ico:hover{
+    background: rgba(0,0,0,0.1);
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.th{
+    background: linear-gradient(50deg, gold, #ff3000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: h1Ani 1000s infinite;
+}
+.Cart{
+    overflow-x: scroll;
+}
+.Notificationsbox button{
+    width: min-content;
+    white-space: nowrap;
+    margin-left: auto;
+}
+@media only screen and (max-width: 768px) {
+    .Notificationsbox{
+        width: 95dvw;
+    }
+    .noti{
+        padding: 10px;
+        grid-template-columns: 1fr 80% 1fr;
+    }
+    .ico{
+        width: 25px;
+        height: 25px;
+    }
+}
